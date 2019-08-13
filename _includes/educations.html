@@ -1,0 +1,47 @@
+{% assign educations = site.data.data.educations %}
+{% if educations %}
+<section class="section educations-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+    </span>
+    educations
+  </h2>
+
+  {% for education in educations %}
+  <div class="item">
+
+    <div class="meta">
+
+      <h3 class="job-title">{{ education.degree }}</h3>
+
+      <div class="company">{{ education.university }}</div>
+
+      <div class="time">{{ education.time }}</div>
+
+    </div><!--//meta-->
+
+    {% if education.details %}
+    <div class="details">
+      {{ education.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+
+    {% if education.technologies %}
+    <div class="technologies">
+      <span>Technologies:</span>
+      <div class="button-group">
+        {%for technology in education.technologies %}
+        <a href="{{ technology.href }}" class="button" target="_blank">{{ technology.name }}</a>
+        {% endfor %}
+      </div>
+    </div><!--//technologies-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

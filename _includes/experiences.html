@@ -1,0 +1,46 @@
+{% assign experiences = site.data.data.experiences %}
+{% if experiences %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    Experiences
+  </h2>
+
+  {% for experience in experiences %}
+  <div class="item">
+
+    <div class="meta">
+
+      <h3 class="job-title">{{ experience.role }}</h3>
+
+      <div class="company">{{ experience.company }}</div>
+
+      <div class="time">{{ experience.time }}</div>
+
+    </div><!--//meta-->
+
+    {% if experience.details %}
+    <div class="details">
+      {{ experience.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+    {% if experience.technologies %}
+    <div class="technologies">
+      <span>Technologies:</span>
+      <div class="button-group">
+        {%for technology in experience.technologies %}
+        <a href="{{ technology.href }}" class="button" target="_blank">{{ technology.name }}</a>
+        {% endfor %}
+      </div>
+    </div><!--//technologies-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

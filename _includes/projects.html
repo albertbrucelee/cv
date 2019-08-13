@@ -1,0 +1,44 @@
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+<section class="section projects-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-clone fa-stack-1x fa-inverse"></i>
+    </span>
+    Projects
+  </h2>
+
+  {% for project in projects %}
+  <div class="item">
+
+    <div class="meta">
+
+      <h3 class="project-title">{{ project.title }}</h3>
+
+      <div class="time">{{ project.time }}</div>
+
+    </div><!--//meta-->
+
+    {% if project.details %}
+    <div class="details">
+      {{ project.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+    {% if project.technologies %}
+    <div class="technologies">
+      <span>Technologies:</span>
+      <div class="button-group">
+        {%for technology in project.technologies %}
+        <a href="{{ technology.href }}" class="button" target="_blank">{{ technology.name }}</a>
+        {% endfor %}
+      </div>
+    </div><!--//technologies-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

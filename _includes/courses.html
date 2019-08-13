@@ -1,0 +1,50 @@
+{% assign courses = site.data.data.courses %}
+{% if courses %}
+<section class="section courses-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-rocket fa-stack-1x fa-inverse"></i>
+    </span>
+    Courses
+  </h2>
+
+  {% for course in courses %}
+  <div class="item">
+
+    <div class="meta">
+
+      <h3 class="course-title">{{ course.title }}</h3>
+
+      <div class="time">{{ course.time }}</div>
+
+    </div><!--//meta-->
+
+    {% if course.details %}
+    <div class="details">
+      {{ course.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+    {% if course.certificate_file_name %}
+    <div class="details">
+      <a target="_blank" href="{{ site.baseurl }}/public_data/certificate/{{ course.certificate_file_name }}">View Certificate</a>
+    </div><!--//details-->
+    {% endif %}
+
+    {% if course.technologies %}
+    <div class="technologies">
+      <span>Technologies:</span>
+      <div class="button-group">
+        {%for technology in course.technologies %}
+        <a href="{{ technology.href }}" class="button" target="_blank">{{ technology.name }}</a>
+        {% endfor %}
+      </div>
+    </div><!--//technologies-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
