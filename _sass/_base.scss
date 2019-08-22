@@ -163,6 +163,7 @@ p {
     background: #fff;
     padding: 60px;
     padding-right: 340px;
+
     .section-title {
         text-transform: uppercase;
         font-size: 26px;
@@ -176,7 +177,7 @@ p {
         margin-bottom: 60px;
     }
 
-    .experiences-section, .educations-section, .projects-section, .skills-section {
+    .experiences-section {
         .item {
             margin-bottom: 40px;
         }
@@ -186,7 +187,7 @@ p {
         overflow: hidden;
         margin-bottom: 2px;
     }
-    .job-title, .degree {
+    .job-title {
         color: $text-color;
         font-size: 22px;
         margin-top: 0;
@@ -199,44 +200,20 @@ p {
     //     top: 0;
     //     color: $text-grey;
     // }
-    .company, .university {
+    .company {
         color: $text-grey;
     }
     .time {
-        margin-bottom: 10px;
         color: $text-grey;
+        margin-bottom: 10px;
     }
-
-    .project-title {
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 5px;
-    }
-
-    .course-title {
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 5px;
-    }
-
-    .skill-title {
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 5px;
-    }
-
-    .technologies span, .technologies div {
-        vertical-align: middle;
-    }
-
-
-    .skills-section {
-        .details span, .details div {
+    .skills-details {
+        span, div {
             vertical-align: middle;
         }
+    }
+    .technologies span, .technologies div {
+        vertical-align: middle;
     }
 
     .publication-title {
