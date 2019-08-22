@@ -45,7 +45,9 @@ summary:
         Previously Albert is an Android programmer.
         Recently, Artificial Intelligence (AI) is just starting to develop in Indonesia and still rare.
         So Albert now focuses on AI because he wants to contribute to the development of AI in his beloved country.
-        Also, his dream is to develop Agriculture in Indonesia with AI technology because nowadays many people don't like to work in Agriculture field so it's starting to be abandoned.
+        He have experience working on projects with a different title that he had no experience before.
+        Therefore he believes, with hard work he will be able to master the AI field.
+        Last but not least, his dream is to develop Agriculture in Indonesia with AI technology because nowadays many people don't like to work in Agriculture field so it's starting to be abandoned.
 
 career-profile:
     title: Career Profile
@@ -242,24 +244,26 @@ courses:
       details: |
         Training: Logistic Regression, Artificial Neural Network, Machine Learning (ML) Algorithms
 
+        <a target="_blank" href="https://coursera.org/learn/machine-learning"><u>Open Link</u></a>
+
 
 organizations:
-    - title: Forum Mahasiswa Kristen IPB
+    - title: Christian College Student Forum (Forum Mahasiswa Kristen) Diploma IPB
       time: "2013 - 2016"
       details: |
         Details:
           - Assistance in Religion Subject. I with my partner teach a religion subjects to new Christian college students in a group of 12 people.
-          - Event organizer member in some Christian events. Also as a guitarist in some Christian events.
+          - Event organizer member in some Christian college student events. Also as a guitarist in some Christian college student events.
 
         Previously I had never joined an organization, and was not interested.
         Thank God and my friends who encourage me to join this organization, so now I know about organization and loved it.
       certificate_file_name: asistensi_agama.jpeg
 
 volunteers:
-    - title: Sunday School Teacher's Assistant
+    - title: Christian Sunday School Teacher's Assistant
       time: "2019 - now"
       details: |
-        Sunday School is a Sunday Worship (Ibadah Minggu) for children.
+        Christian Sunday School is a Sunday Worship (Ibadah Minggu) for children.
         Children are the future of the nation, so I dedicate myself to serve them.
 
 skills:
@@ -267,43 +271,71 @@ skills:
       details:
         - title: Knowledge
           toolset:
-            - Supervised Learning
-            - Unsupervised Learning
+            - name: Supervised Learning
+              href: https://en.wikipedia.org/wiki/Supervised_learning
+            - name: Unsupervised Learning
+              href: https://en.wikipedia.org/wiki/Unsupervised_learning
         - title: Languages
           toolset:
-            - Python
-            - R
+            - name: Python
+              href: https://www.python.org/
+            - name: R
+              href: https://www.r-project.org/
         - title: Libraries
           toolset:
-            - Scikit-learn
-            - Tensorflow
-            - Keras
+            - name: Scikit-learn
+              href: https://scikit-learn.org
+            - name: Tensorflow
+              href: https://www.tensorflow.org/
+            - name: Keras
+              href: https://keras.io/
         - title: Tools and Others
           toolset:
-            - Jupyter Notebook / Google Colab
+            - name: Jupyter Notebook
+              href: https://jupyter.org/
 
     - title: Others
       details:
         - title: Knowledge
           toolset:
-            - Swarm Intelligence
-            - Arduino Microcontroller
-            - Android Development
+            - name: Swarm Intelligence
+              href: https://en.wikipedia.org/wiki/Swarm_intelligence
+            - name: Arduino Microcontroller
+              href: https://www.arduino.cc/en/guide/introduction
+            - name: Android Development
+              href: https://developer.android.com
+            - name: REST API
+              href: https://en.wikipedia.org/wiki/Representational_state_transfer
         - title: Languages
           toolset:
-            - Matlab
-            - C++
-            - SQL
-            - Java
-            - PHP
+            - name: Matlab
+              href: https://www.mathworks.com/products/matlab.html
+            - name: C++
+              href: https://en.wikipedia.org/wiki/C++
+            - name: SQL
+              href: https://en.wikipedia.org/wiki/SQL
+            - name: Java
+              href: https://id.wikipedia.org/wiki/Java
+            - name: PHP
+              href: https://www.php.net/
+        - title: Libraries and Framework
+          toolset:
+            - name: OpenCV
+              href: https://opencv.org/
+            - name: Slim Framework
+              href: http://www.slimframework.com/
         - title: Tools and Others
           toolset:
-            - Git
-            - Linux
-            - Webots Simulator
-            - E-puck Robots
-            - OpenCV
-            - Postman
+            - name: Git
+              href: https://git-scm.com/
+            - name: Linux
+              href: https://en.wikipedia.org/wiki/Linux
+            - name: Webots Simulator
+              href: https://cyberbotics.com/
+            - name: E-puck Robots
+              href: http://www.e-puck.org/
+            - name: Postman
+              href: https://www.getpostman.com/
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

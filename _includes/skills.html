@@ -20,7 +20,7 @@
           <span>{{ details.title }}:</span>
           <div class="button-group">
             {%for tool in details.toolset %}
-            <span class="button">{{ tool }}</span>
+            <a href="{{ tool.href }}" class="button" target="_blank">{{ tool.name }}</a>
             {% endfor %}
           </div>
         </div><!--//technologies-->
