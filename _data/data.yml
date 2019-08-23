@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Albert Alfrianta
-    tagline: Fresh Graduated - Sharpening My Skills While Looking for an AI Job
+    tagline: Fresh Graduated - Focus on AI / ML
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -44,9 +44,9 @@ summary:
     summary: |
         Previously Albert is an Android programmer.
         Recently, Artificial Intelligence (AI) is just starting to develop in Indonesia and still rare.
-        So Albert now focuses on AI because he wants to contribute to the development of AI in his beloved country.
+        So Albert now focuses on AI / ML because he wants to contribute to the development of AI in his beloved country.
         He have experience working on projects with a different title that he had no experience before.
-        Therefore he believes, with hard work he will be able to master the AI field.
+        Therefore he believes, with hard work he will be able to master AI / ML field.
         Last but not least, his dream is to develop Agriculture in Indonesia with AI technology because nowadays many people don't like to work in Agriculture field so it's starting to be abandoned.
 
 career-profile:
@@ -271,6 +271,8 @@ skills:
       details:
         - title: Knowledge
           toolset:
+            - name: Regression
+              href: https://en.wikipedia.org/wiki/Regression_analysis
             - name: Supervised Learning
               href: https://en.wikipedia.org/wiki/Supervised_learning
             - name: Unsupervised Learning
