@@ -24,8 +24,8 @@
     <div class="details">
       {{ organization.details | markdownify }}
 
-      {% if course.certificate_file_name %}
-        <a target="_blank" href="{{ site.baseurl }}/public_data/certificate/{{ course.certificate_file_name }}"><u>View Certificate</u></a>
+      {% if organization.certificate_file_name %}
+        <a target="_blank" href="{{ site.baseurl }}/public_data/certificate/{{ organization.certificate_file_name }}"><u>View Certificate</u></a>
       {% endif %}
     </div><!--//details-->
     {% endif %}

@@ -26,8 +26,8 @@
     <div class="details">
       {{ contest.details | markdownify }}
 
-      {% if course.certificate_file_name %}
-        <a target="_blank" href="{{ site.baseurl }}/public_data/certificate/{{ course.certificate_file_name }}"><u>View Certificate</u></a>
+      {% if contest.certificate_file_name %}
+        <a target="_blank" href="{{ site.baseurl }}/public_data/certificate/{{ contest.certificate_file_name }}"><u>View Certificate</u></a>
       {% endif %}
     </div><!--//details-->
     {% endif %}
