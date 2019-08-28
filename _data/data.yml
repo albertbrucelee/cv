@@ -71,7 +71,7 @@ educations:
         With Particle Swarm Optimization, robots is sharing their best location related to possible target location, so robots can find the best possible target location.
         In this simulation, I used 5 robots, and 1 targets.
         Robots use obstacle avoidance so they don't collide with each other and don't collide with obstacles.
-        The system is simulate in Matlab.
+        The system is developed and simulated using Matlab.
       technologies:
         - name: PSO
           href: https://ieeexplore.ieee.org/document/488968
@@ -87,7 +87,9 @@ educations:
       time: 2013 - 2016
       details: |
         Diploma Thesis: School Administration Services Infrastructure Integrated with fingerprint device.
-        I create the fingerprint device from Arduino microcontroller and fingerprint sensor ZFM208SA.
+
+        I create the fingerprint device using Arduino microcontroller and fingerprint sensor ZFM208SA.
+
         The school administration services consists of website for manage the fingerprint, student payment website, school library website, and teacher presension website.
       technologies:
         - name: Arduino Microcontroller
@@ -96,8 +98,6 @@ educations:
           href: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-optical-fingerprint-sensor.pdf
         - name: MVC
           href: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
-        - name: Slim Framework
-          href: http://www.slimframework.com/
         - name: Codeigniter Framework
           href: https://www.codeigniter.com/
         - name: MySql
@@ -118,7 +118,7 @@ experiences:
         In this simulation, we used 40 robots, and 4 targets.
 
         The system is simulate in Webots Simulator using C language.
-        I use Matlab just only use to learn about the Niching Particle Swarm Optimization because it's easy to write the code in Matlab and easy to visualize the result.
+        I also use Matlab, just only use to learn about the Niching Particle Swarm Optimization because it’s easy to write the code in Matlab and easy to visualize the result.
 
         Example application of this system is: search and rescue for disaster victims in a dangerous areas
       technologies:
@@ -159,31 +159,34 @@ experiences:
           - name: Information Theory
             href: https://en.wikipedia.org/wiki/Information_theory
 
-    - role: Android Developer
+    - role: Android Developer and Web Developer
       time: November 2017 - August 2018
       company: PT. TrendSolusindo, Bogor, Indonesia
       details: |
         Projects:
-          - Develop RumahHokie android application from scratch: prototype and UI design using Marvel App and the android application using MVP architecture.
-            Also build the API from scratch using Slim Framework.
-            This application is available on Google Play Store.
-            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.tomcat.rumahhokie"><u>View application</u></a>
-          - Develop previous Roti Unyil ERP web based application: bread production, stock management and Point of Sales (POS)
+          - Develop RumahHokie android application using MVP architecture. Developed using Android Studio. This application is available on Google Play Store. <a target="_blank" href="https://play.google.com/store/apps/details?id=com.tomcat.rumahhokie"><u>View application</u></a>
+          - Develop RumahHokie REST API using Slim Framework. Authorization using OAuth 2.0
+          - Develop RumahHokie mobile application prototype and UI Design. Developed using Marvel APP.
+          - Develop previous Roti Unyil ERP web based application: bread production, stock management and Point of Sales (POS). The web application is build using CI Framework (MVC architecture). The database use MySql.
       technologies:
         - name: MVP
           href: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
-        - name: MVC
-          href: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+        - name: Android Studio
+          href: https://developer.android.com/studio
+        - name: REST API
+          href: https://en.wikipedia.org/wiki/Representational_state_transfer
         - name: Slim Framework
           href: http://www.slimframework.com/
-        - name: Codeigniter Framework
-          href: https://www.codeigniter.com/
-        - name: MySql
-          href: https://www.mysql.com/
         - name: OAuth 2.0
           href: https://oauth.net/2/
         - name: Marvel App
           href: https://marvelapp.com/
+        - name: MVC
+          href: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+        - name: Codeigniter Framework
+          href: https://www.codeigniter.com/
+        - name: MySql
+          href: https://www.mysql.com/
 
 
     - role: Java Programmer (Freelancer)
@@ -230,7 +233,8 @@ contests:
 
 
 courses:
-    - title: Machine Learning - Digital Talent Scholarship 2019 by Kemkominfo
+    - title: Machine Learning and Deep Learning - Digital Talent Scholarship 2019
+      company: Ministry of Communication and Information Technology of the Republic of Indonesia
       time: "July 2019 - August 2019"
       details: |
         Training:
@@ -241,10 +245,11 @@ courses:
         My deep learning project: <a target="_blank" href="https://www.kaggle.com/albertbrucelee/fashion-mnist-94-accuracy-using-cnn-keras"><u>Fashion MNIST 94% Accuracy Using CNN Keras</u></a>
       certificate_file_name: machine_learning_digitalent_kominfo_certificate_albert_alfrianta.pdf
 
-    - title: Machine Learning - coursera.org
+    - title: Machine Learning
+      company: Coursera
       time: "Ongoing"
       details: |
-        Training: Logistic Regression, Artificial Neural Network, Machine Learning (ML) Algorithms
+        Training: Logistic Regression, Artificial Neural Network, Machine Learning Algorithms
 
         <a target="_blank" href="https://coursera.org/learn/machine-learning"><u>Open Link</u></a>
 
@@ -338,6 +343,8 @@ skills:
               href: https://cyberbotics.com/
             - name: E-puck Robots
               href: http://www.e-puck.org/
+            - name: Android Studio
+              href: https://developer.android.com/studio
             - name: Postman
               href: https://www.getpostman.com/
 
