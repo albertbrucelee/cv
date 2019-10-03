@@ -25,6 +25,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.medium %}
+    <li class="medium"><i class="fab fa-medium"></i>
+      <a href="https://medium.com/@{{ sidebar.medium }}" target="_blank">@{{ sidebar.medium }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.kaggle %}
     <li class="kaggle"><i class="fab fa-kaggle"><img src="{{ site.baseurl }}/assets/images/kaggle_white.png"  height="17" width="17"></img></i>
       <a href="https://kaggle.com/{{ sidebar.kaggle }}" target="_blank">kaggle.com/{{ sidebar.kaggle }}</a>

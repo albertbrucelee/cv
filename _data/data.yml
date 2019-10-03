@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Albert Alfrianta
-    tagline: Fresh Graduated - Focus on AI / ML
+    tagline: Fresh Graduated - Focus on Artificial Intelligence
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -16,6 +16,7 @@ sidebar:
     phone:
     website: #do not add http://
     linkedin: albert-alfrianta
+    medium: albert.brucelee
     kaggle: albertbrucelee
     github: albertbrucelee
     gitlab:
@@ -44,10 +45,10 @@ summary:
     summary: |
         Previously Albert is an Android programmer.
         Recently, Artificial Intelligence (AI) is just starting to develop in Indonesia and still rare.
-        So Albert now focuses on AI / ML because he wants to contribute to the development of AI in his beloved country.
+        So Albert now focuses on AI because he wants to contribute to the development of AI in his beloved country.
         He have experience working on projects with a different title that he had no experience before.
-        Therefore he believes, with hard work he will be able to master AI / ML field.
-        Last but not least, his dream is to develop Agriculture in Indonesia with AI technology because nowadays many people don't like to work in Agriculture field so it's starting to be abandoned.
+        Therefore, he is agile to adapt to new knowledge, and he believes with hard work he will be able to master AI field.
+        Last but not least, his dream is to develop Agriculture in Indonesia with AI technology because nowadays many people don’t like to work in Agriculture field so it’s starting to be abandoned
 
 career-profile:
     title: Career Profile
@@ -104,7 +105,7 @@ educations:
           href: https://www.mysql.com/
 
 experiences:
-    - role: Swarm Intelligence & E-puck Robot Programmer (Freelancer)
+    - role: Swarm Intelligence & e-puck Robot Programmer (Freelancer)
       time: "May 2019 - Present"
       details: |
         I help my friend to implement the algorithm in her thesis.
@@ -120,6 +121,8 @@ experiences:
         The system is simulate in Webots Simulator using C language.
         I also use Matlab, just only use to learn about the Niching Particle Swarm Optimization because it’s easy to write the code in Matlab and easy to visualize the result.
 
+        The result is save into csv document (e.g. robot location at each iteration).  I also use Python to analyse this result.
+
         Example application of this system is: search and rescue for disaster victims in a dangerous areas
       technologies:
         - name: Niching PSO
@@ -134,6 +137,8 @@ experiences:
           href: https://en.wikipedia.org/wiki/C_(programming_language)
         - name: Matlab
           href: https://www.mathworks.com/products/matlab.html
+        - name: Python
+          href: https://www.python.org/
 
     - role: Matlab Programmer (Freelancer)
       time: 2016 - 2018
@@ -166,8 +171,8 @@ experiences:
         Projects:
           - Develop RumahHokie android application using MVP architecture. Developed using Android Studio. This application is available on Google Play Store. <a target="_blank" href="https://play.google.com/store/apps/details?id=com.tomcat.rumahhokie"><u>View application</u></a>
           - Develop RumahHokie REST API using Slim Framework. Authorization using OAuth 2.0
-          - Develop RumahHokie mobile application prototype and UI Design. Developed using Marvel APP.
-          - Develop previous Roti Unyil ERP web based application: bread production, stock management and Point of Sales (POS). The web application is build using CI Framework (MVC architecture). The database use MySql.
+          - Develop RumahHokie mobile application prototype and UI Design. Developed using Marvel APP
+          - Develop previous Roti Unyil ERP web based application: bread production, stock management and Point of Sales (POS). The web application is build using CI Framework (MVC architecture). The database use MySql
       technologies:
         - name: MVP
           href: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter
@@ -274,22 +279,24 @@ volunteers:
         Children are the future of the nation, so I dedicate myself to serve them.
 
 skills:
-    - title: Machine Learning & Deep Learning
+    - title: Artificial Intelligence
       details:
         - title: Knowledge
           toolset:
-            - name: Regression
-              href: https://en.wikipedia.org/wiki/Regression_analysis
-            - name: Supervised Learning
-              href: https://en.wikipedia.org/wiki/Supervised_learning
-            - name: Unsupervised Learning
-              href: https://en.wikipedia.org/wiki/Unsupervised_learning
+            - name: Machine Learning,
+              href: https://en.wikipedia.org/wiki/Machine_learning
+            - name: Deep Learning
+              href: https://en.wikipedia.org/wiki/Deep_learning
         - title: Languages
           toolset:
             - name: Python
               href: https://www.python.org/
             - name: R
               href: https://www.r-project.org/
+            - name: Matlab
+              href: https://www.mathworks.com/products/matlab.html
+            - name: Octave
+              href: https://www.gnu.org/software/octave/
         - title: Libraries
           toolset:
             - name: Scikit-learn
@@ -298,19 +305,40 @@ skills:
               href: https://www.tensorflow.org/
             - name: Keras
               href: https://keras.io/
+            - name: OpenCV
+              href: https://opencv.org/
         - title: Tools and Others
           toolset:
             - name: Jupyter Notebook
               href: https://jupyter.org/
+            - name: Google Colab
+              href: https://colab.research.google.com/
 
-    - title: Others
+    - title: Robotics & IoT
       details:
         - title: Knowledge
           toolset:
             - name: Swarm Intelligence
               href: https://en.wikipedia.org/wiki/Swarm_intelligence
+        - title: Languages
+          toolset:
+            - name: C
+              href: https://en.wikipedia.org/wiki/C_(programming_language)
+            - name: C++
+              href: https://en.wikipedia.org/wiki/C++
+        - title: Tools and Others
+          toolset:
+            - name: Webots Simulator
+              href: https://cyberbotics.com/
             - name: Arduino Microcontroller
               href: https://www.arduino.cc/en/guide/introduction
+            - name: e-puck Robots
+              href: http://www.e-puck.org/
+
+    - title: Others
+      details:
+        - title: Knowledge
+          toolset:
             - name: Android Development
               href: https://developer.android.com
             - name: REST API
@@ -319,6 +347,10 @@ skills:
           toolset:
             - name: Matlab
               href: https://www.mathworks.com/products/matlab.html
+            - name: Octave
+              href: https://www.gnu.org/software/octave/
+            - name: C
+              href: https://en.wikipedia.org/wiki/C_(programming_language)
             - name: C++
               href: https://en.wikipedia.org/wiki/C++
             - name: SQL
@@ -329,8 +361,6 @@ skills:
               href: https://www.php.net/
         - title: Libraries and Framework
           toolset:
-            - name: OpenCV
-              href: https://opencv.org/
             - name: Slim Framework
               href: http://www.slimframework.com/
         - title: Tools and Others
@@ -339,10 +369,6 @@ skills:
               href: https://git-scm.com/
             - name: Linux
               href: https://en.wikipedia.org/wiki/Linux
-            - name: Webots Simulator
-              href: https://cyberbotics.com/
-            - name: E-puck Robots
-              href: http://www.e-puck.org/
             - name: Android Studio
               href: https://developer.android.com/studio
             - name: Postman
