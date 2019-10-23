@@ -45,8 +45,9 @@ summary:
     summary: |
         Indonesia has a great potential in Artificial Intelligence (AI) field, but it just starting to develop and still rare.
         Therefore after graduated from college, Albert focus on AI because he want to contribute to the development of AI in Indonesia.
-        He have experience working on projects with a different title that he had no experience before.
-        Therefore he is agile to adapt to new knowledge, and he believe with hard work he will be able to master AI field. 
+        Previously he is an Android Developer and have experience working on projects with a different title that he had no experience before.
+        Therefore he is agile to adapt to new knowledge, and he believes with hard work he will be able to master AI field.
+        He open for AI jobs opportunity and related fields: Machine Learning, Deep Learning, Data Science, and Robotics.
 
 career-profile:
     title: Career Profile
@@ -318,6 +319,8 @@ skills:
           toolset:
             - name: Swarm Intelligence
               href: https://en.wikipedia.org/wiki/Swarm_intelligence
+            - name: Arduino Microcontroller
+              href: https://www.arduino.cc/en/guide/introduction
         - title: Languages
           toolset:
             - name: C
@@ -328,8 +331,6 @@ skills:
           toolset:
             - name: Webots Simulator
               href: https://cyberbotics.com/
-            - name: Arduino Microcontroller
-              href: https://www.arduino.cc/en/guide/introduction
             - name: e-puck Robots
               href: http://www.e-puck.org/
 
