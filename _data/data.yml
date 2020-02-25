@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Albert Alfrianta
-    tagline: Fresh Graduated - Focus on Artificial Intelligence
+    tagline: Software Developer - Also AI, Robotics, and IoT Enthusiast
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -104,8 +104,14 @@ educations:
           href: https://www.mysql.com/
 
 experiences:
+    - role: Junior Software Developer
+      time: Nov 2019 - Present
+      company: PT. eComindo Saranacipta, Jakarta, Indonesia
+      details: |
+        Currently starting as Junior Software Developer at eComindo, and will play in various Application Development Technology.
+
     - role: Swarm Intelligence & e-puck Robot Programmer (Freelancer)
-      time: "May 2019 - Present"
+      time: May 2019 - Present
       details: |
         I help my friend to implement the algorithm in her thesis.
 
@@ -143,8 +149,7 @@ experiences:
       time: 2016 - 2018
       company:
       details: |
-          I help my lecturer, <a target="_blank" href="https://forlap.ristekdikti.go.id/dosen/detail/QTc4MEUzRkEtMTJENy00OTVBLUE1QzgtQkJEM0M3MTdGNThG/0"><u>Maria Susan Anggreainy</u></a>,
-          to implement the algorithm in her dissertation. The algorithm write and visualized in Matlab.
+          I help my lecturer to implement the algorithm in her dissertation. The algorithm write and visualized in Matlab.
 
           Dissertation: Development of STR-DNA Similarity Measurement Based on Fuzzy logic Involving Family Relationships and Tribal Information.
 
@@ -154,7 +159,6 @@ experiences:
             - <a target="_blank" href="https://doi.org/10.1155/2018/8602513"><u>Gaussian Fuzzy Number for STR-DNA Similarity Calculation Involving Familial and Tribal Relationships</u></a>
             - <a target="_blank" href="http://doi.org/10.11591/ijece.v9i2.pp1335-1345"><u>Family Relation and STR-DNA Matching Using Fuzzy Inference</u></a>
 
-          Maria Susan Anggreainy contact: +62 813-1417-6234 - susan.anggreainy@gmail.com
       technologies:
           - name: Matlab
             href: https://www.mathworks.com/products/matlab.html
