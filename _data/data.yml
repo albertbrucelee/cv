@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Albert Alfrianta
-    tagline: Software Developer - Also AI, Robotics, and IoT Enthusiast
+    tagline: Software Developer | Microservices, Serverless, Azure
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -43,11 +43,10 @@ sidebar:
 summary:
     title: Summary
     summary: |
-        Indonesia has a great potential in Artificial Intelligence (AI) field, but it just starting to develop and still rare.
-        Therefore after graduated from college, Albert focus on AI because he want to contribute to the development of AI in Indonesia.
-        Previously he is an Android Developer and have experience working on projects with a different title that he had no experience before.
-        Therefore he is agile to adapt to new knowledge, and he believes with hard work he will be able to master AI field.
-        He open for AI jobs opportunity and related fields: Machine Learning, Deep Learning, Data Science, and Robotics.
+        Albert is a Software Developer with Flutter, .NET, Microservices, Serverless, and Azure Cloud experience.
+        He focus on Back-End and Mobile application development. 
+        He is also experienced in Robotics and IoT projects like Swarm Robotics and Arduino, and also interest with Artificial Intelligence. 
+        Feel free to send him a “Hi” message by LinkedIn, E-mail, or call.
 
 career-profile:
     title: Career Profile
@@ -104,14 +103,40 @@ educations:
           href: https://www.mysql.com/
 
 experiences:
-    - role: Junior Software Developer
+    - role: Associate Software Developer
       time: Nov 2019 - Present
       company: PT. eComindo Saranacipta, Jakarta, Indonesia
       details: |
-        Currently starting as Junior Software Developer at eComindo, and will play in various Application Development Technology.
+        Projects:
+          - Prudential Medical Network (Back-End). Develop Prudential Medical Network (PMN)back-end. PMN is a web application for insurance claims, managed directly by Prudential Indonesia, covering inpatient and outpatient insurance at PMN partner hospitals. Technologies: Java, Vert.x
+          - Poinin Mobile Apps (Back-End). Develop new version of Poinin Application. Poinin is an application to search for promos. Technologies: Serverless, Microsoft Azure, C#, .NET Core, Event-driven, NoSql
+          - KSEI. Develop STP Application new features. Technologies: Java, OAQ, MSMQ
+          - Bank of America. Develop Anti Money Laundring (AML) new features. Technologies: ASP.NET
+          - KPEI. Fixing bug of Haircut Application. Technologies: C#, .NET, Sql Server
+      technologies:
+        - name: Azure Cloud
+          href: https://azure.microsoft.com
+        - name: Microservices
+          href: https://en.wikipedia.org/wiki/Microservices
+        - name: Serverless
+          href: https://en.wikipedia.org/wiki/Serverless_computing
+        - name: CI/CD
+          href: https://en.wikipedia.org/wiki/CI/CD
+        - name: C#
+          href: https://docs.microsoft.com/en-us/dotnet/csharp/
+        - name: DotNet
+          href: https://dotnet.microsoft.com/
+        - name: Java
+          href: https://en.wikipedia.org/wiki/Java_(programming_language)
+        - name: NoSQL
+          href: https://en.wikipedia.org/wiki/NoSQL
+        - name: SQL
+          href: https://en.wikipedia.org/wiki/SQL
+        - name: MongoDB
+          href: https://www.mongodb.com/
 
     - role: Swarm Intelligence & e-puck Robot Programmer (Freelancer)
-      time: May 2019 - Present
+      time: May 2019 - Sept 2019
       details: |
         I help my friend to implement the algorithm in her thesis.
 
@@ -146,7 +171,7 @@ experiences:
           href: https://www.python.org/
 
     - role: Matlab Programmer (Freelancer)
-      time: 2016 - 2018
+      time: Aug 2016 - Aug 2018
       company:
       details: |
           I help my lecturer to implement the algorithm in her dissertation. The algorithm write and visualized in Matlab.
@@ -168,7 +193,7 @@ experiences:
             href: https://en.wikipedia.org/wiki/Information_theory
 
     - role: Android Developer and Web Developer
-      time: November 2017 - August 2018
+      time: Nov 2017 - Aug 2018
       company: PT. TrendSolusindo, Bogor, Indonesia
       details: |
         Projects:
@@ -282,40 +307,63 @@ volunteers:
         Children are the future of the nation, so I dedicate myself to serve them.
 
 skills:
-    - title: Artificial Intelligence
+    - title: Back-End
       details:
         - title: Knowledge
           toolset:
-            - name: Machine Learning,
-              href: https://en.wikipedia.org/wiki/Machine_learning
-            - name: Deep Learning
-              href: https://en.wikipedia.org/wiki/Deep_learning
+            - name: Microservices
+              href: https://en.wikipedia.org/wiki/Microservices
+            - name: Serverless
+              href: https://en.wikipedia.org/wiki/Serverless_computing
+            - name: CI/CD
+              href: https://en.wikipedia.org/wiki/CI/CD
+            - name: REST API
+              href: https://en.wikipedia.org/wiki/Representational_state_transfer
+            - name: Event Driven
+              href: https://en.wikipedia.org/wiki/Event-driven_programming
         - title: Languages
           toolset:
-            - name: Python
-              href: https://www.python.org/
-            - name: R
-              href: https://www.r-project.org/
-            - name: Matlab
-              href: https://www.mathworks.com/products/matlab.html
-            - name: Octave
-              href: https://www.gnu.org/software/octave/
-        - title: Libraries
-          toolset:
-            - name: Scikit-learn
-              href: https://scikit-learn.org
-            - name: Tensorflow
-              href: https://www.tensorflow.org/
-            - name: Keras
-              href: https://keras.io/
-            - name: OpenCV
-              href: https://opencv.org/
+            - name: C#
+              href: https://docs.microsoft.com/en-us/dotnet/csharp/
+            - name: DotNet
+              href: https://dotnet.microsoft.com/
+            - name: Java
+              href: https://en.wikipedia.org/wiki/Java_(programming_language)
+            - name: NoSQL
+              href: https://en.wikipedia.org/wiki/NoSQL
+            - name: SQL
+              href: https://en.wikipedia.org/wiki/SQL
         - title: Tools and Others
           toolset:
-            - name: Jupyter Notebook
-              href: https://jupyter.org/
-            - name: Google Colab
-              href: https://colab.research.google.com/
+            - name: Azure Cloud
+              href: https://azure.microsoft.com
+            - name: MongoDB
+              href: https://www.mongodb.com/
+            - name: Git
+              href: https://git-scm.com/
+            - name: Linux
+              href: https://en.wikipedia.org/wiki/Linux
+
+    - title: Mobile
+      details:
+        - title: Knowledge
+          toolset:
+            - name: Android development
+              href: https://developer.android.com/
+        - title: Languages
+          toolset:
+            - name: Dart
+              href: https://dart.dev/
+            - name: Java
+              href: https://en.wikipedia.org/wiki/Java_(programming_language)
+        - title: Framework
+          toolset:
+            - name: Flutter
+              href: https://flutter.dev/
+        - title: Tools and Others
+          toolset:
+            - name: Android Studio
+              href: https://developer.android.com/studio
 
     - title: Robotics & IoT
       details:
@@ -342,40 +390,38 @@ skills:
       details:
         - title: Knowledge
           toolset:
-            - name: Android Development
-              href: https://developer.android.com
-            - name: REST API
-              href: https://en.wikipedia.org/wiki/Representational_state_transfer
+            - name: Machine Learning
+              href: https://en.wikipedia.org/wiki/Machine_learning
+            - name: Deep Learning
+              href: https://en.wikipedia.org/wiki/Deep_learning
         - title: Languages
           toolset:
+            - name: Python
+              href: https://www.python.org/
+            - name: R
+              href: https://www.r-project.org/
             - name: Matlab
               href: https://www.mathworks.com/products/matlab.html
-            - name: Octave
-              href: https://www.gnu.org/software/octave/
             - name: C
               href: https://en.wikipedia.org/wiki/C_(programming_language)
             - name: C++
               href: https://en.wikipedia.org/wiki/C++
-            - name: SQL
-              href: https://en.wikipedia.org/wiki/SQL
-            - name: Java
-              href: https://id.wikipedia.org/wiki/Java
             - name: PHP
               href: https://www.php.net/
-        - title: Libraries and Framework
+        - title: Libraries
           toolset:
             - name: Slim Framework
               href: http://www.slimframework.com/
+            - name: Tensorflow
+              href: https://www.tensorflow.org/
+            - name: OpenCV
+              href: https://opencv.org/
         - title: Tools and Others
           toolset:
-            - name: Git
-              href: https://git-scm.com/
-            - name: Linux
-              href: https://en.wikipedia.org/wiki/Linux
-            - name: Android Studio
-              href: https://developer.android.com/studio
-            - name: Postman
-              href: https://www.getpostman.com/
+            - name: Jupyter Notebook
+              href: https://jupyter.org/
+            - name: Google Colab
+              href: https://colab.research.google.com/
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
