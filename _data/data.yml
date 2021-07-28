@@ -103,6 +103,34 @@ educations:
           href: https://www.mysql.com/
 
 experiences:
+    - role: E-Ticket Application in Mobile and Back-End (Freelance)
+      time: Dec 2020 - Present
+      company: 
+      details: |
+        Currently I develop my own Startup in e-ticket application. 
+        I develop the entire system from scratch to production. 
+        The mobile application is developed using Flutter. 
+        BackEnd is developed using DotNet Core Azure Function. 
+        CI/CD using Azure DevOps. 
+        Deploy on Azure Cloud.
+      technologies:
+        - name: Flutter
+          href: https://flutter.dev/
+        - name: Azure Cloud
+          href: https://azure.microsoft.com
+        - name: Microservices
+          href: https://en.wikipedia.org/wiki/Microservices
+        - name: Serverless
+          href: https://en.wikipedia.org/wiki/Serverless_computing
+        - name: CI/CD
+          href: https://en.wikipedia.org/wiki/CI/CD
+        - name: C#
+          href: https://docs.microsoft.com/en-us/dotnet/csharp/
+        - name: NoSQL
+          href: https://en.wikipedia.org/wiki/NoSQL
+        - name: MongoDB
+          href: https://www.mongodb.com/
+
     - role: Associate Software Developer
       time: Nov 2019 - Present
       company: PT. eComindo Saranacipta, Jakarta, Indonesia
