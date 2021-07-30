@@ -3,7 +3,7 @@
 # Site Settings
 title: Albert Alfrianta CV
 url: 'http://webjeda.com'
-baseurl: '/cv' #change it according to your repository name
+baseurl: '' #change it according to your repository name, for example: /cv
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: custom # custom blue turquoise green berry orange ceramic
